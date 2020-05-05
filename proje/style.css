@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{ 
+     background: linear-gradient();
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    height: auto;
+    width: auto;
+}
+
+.ust1{
+    height: 35px ; 
+    background-color: rgb(228, 231, 231);
+}
+
+.ust2{
+    height: 35px;
+    height: 35px;
+    background-color: rgb(228, 231, 231);
+}
+.ust2 a{
+    margin-left: 380px;
+     color: rgb(24, 23, 23);
+    }
+.ust2 a:link{text-decoration: none;}
+
+.anasayfa1{
+    height: 250px;
+    margin-top: 30px;
+}
+.anasayfa1 img.baku1{
+    width: 100%; 
+     height: 250px;
+    }  
+.anasayfa1 img.logo{
+    height: 100px;
+    width: 40%;
+    margin-top: -430px;
+    margin-left: -15px;
+    border-top-left-radius: 30px;
+} 
+    
+.anasayfa2{
+    margin-left: -30px;
+     height: 250px;
+     margin-top:30px ;
+    }
+.anasayfa2 img.baku2{
+    width: 100%;
+height: 250px;
+}
+
+.menu1{ 
+    height: 25px;
+    margin-top: 5px;
+     background-color: #9e9ea1;
+     text-align: center;
+    }
+.menu1 a:link{text-decoration: none; }
+.menu1 a{color: black;}
+ p.menup1{
+     border-style: outset;
+     border-color:#aeaeb3;
+    }
+
+.menu2{
+     height: 25px;
+     margin-top: 5px;
+      background-color: #9e9ea1;
+      text-align: center;
+    }
+.menu2 a:link{text-decoration: none; }
+.menu2 a{color: black;}
+p.menup2{
+    border-style: outset;
+    border-color:#aeaeb3;
+}
+
+.menu3{ 
+    height: 25px;
+    margin-top: 5px;
+     background-color: #9e9ea1;
+     text-align: center;
+    }
+.menu3 a:link{text-decoration: none;}
+.menu3 a{color: black;}
+p.menup3{
+    border-style: outset;
+    border-color:#aeaeb3;
+}
+
+.menu4{
+     height: 25px;
+    margin-top: 5px;
+     background-color: #9e9ea1;
+     text-align: center;
+    }
+.menu4 a:link{text-decoration: none;}
+.menu4 a{color: black;}
+p.menup4{
+    border-style: outset;
+    border-color:#aeaeb3;
+}
+
+.takim{
+    
+     height: 250px;
+      background: linear-gradient( black,white);
+      margin-top: 5px;
+      text-align: center;
+      font-size: 50px;
+    }
+.takim a:link{text-decoration: none;}
+.takim a{color: black; }
+.takim a:hover{color: rgba(241, 241, 241, 0.24);}
+.takim img{
+    width: 90%;
+    height:125px ;
+    margin-top: 20px;
+}
+
+
+
+.login {
+    
+    height: 250px;
+    background:linear-gradient(black,white);
+    margin-top: 5px;
+    font-size: 50px;
+    text-align: center;
+}
+.login a{color: black;}
+.login a:link{text-decoration: none;}
+.login a:hover{color: rgba(241, 241, 241, 0.24);}
+.login img{
+    height: 125px;
+    width: 90%;
+    margin-top: 20px;
+}
+
+
+.HakkindaImg {
+    height: 200px;
+    margin-top: 5px;
+}
+.HakkindaImg img{
+    height: 200px;
+    width: 100%;
+    border-radius: 500px;
+}
+
+.HakkindaP{
+    margin-top: 10px;
+    background-color: rgb(156, 156, 156);
+    height: 190px;
+    border-radius: 30px;
+    text-align: center;
+}
+.HakkindaP p{
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+p.bilgi{margin-top: 10px;}
+
+.ozgecmis table{
+    width: 100%;
+     margin-top: 5px;
+    }
+.ozgecmis table,td {border: ridge;  }
+.ozgecmis td{padding-left: 5px;}  
+
+.foto {width: 150px;}
+.foto img{
+    height: 110px;
+    width: 98%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.kisisel{
+    text-align:center; 
+    color: black; 
+    background-color: #d4d4d4; 
+    border: outset;
+}
+
+p.sehir {size: 30px;}
+
+.sehrim{
+    background: linear-gradient(rgb(181, 181, 228),rgb(178, 172, 182));
+}
+.sehrim p{
+    margin-top: 10px; 
+    font-style: italic;
+}
+
+.bulvar{
+    height: 150px;
+    background:linear-gradient(rgb(177, 173, 180),white);
+}
+.bulvar img{height: 140px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+/*Slider*/
+.slider{
+    overflow: hidden;
+    margin: 5px;
+    position: relative;
+}
+.slider ul.slider_liste li{
+    font-size: 0;
+    width: 100px;
+    height: 300px;
+    float: left;
+}
+.slider ul.slider_liste li a img{
+    width: 100%;
+    height: 100%;
+}
+/*buton*/
+a.onceki,a.sonraki{
+    width: 70px;
+    height: 70px;
+    text-decoration: none;
+    font: 32px/70px Arial;
+    color: #ffffff;
+    border-radius: 100px;
+    position: absolute;
+    top: 50%;
+    margin-top: -40px;
+    background: rgba(0, 0, 0, .5);
+    text-align: center;
+}
+a.onceki{left: 20px;}
+a.sonraki{right: 20px;}
+a.onceki:hover,a.sonraki:hover{background: rgba(0, 0, 0);}
+
+/*takımımız*/
+
+
+.logo-1{
+    color: rgb(235, 233, 233);
+    background-color: #212157;
+    height: 80px;
+}
+.logo-1 img{margin-left: 10px;}
+.qarabag{
+    background-color: #b7b7bb;
+font-size: 18px;
+margin-top: 10px;
+height: 307px;
+}
+.fotoQarabag{
+    background: linear-gradient(to right,#212157,#acacac);
+    margin-top: 10px;
+height: 307px;
+width: 100%;
+}
+.fotoQarabag img{
+    margin-left: 35px;
+    margin-top: 60px;
+    height: 198px;
+    width: 254px;
+}
+
+.button {
+    font-size: large;
+    margin-top: 5px;
+}
+
+.button a:link{text-decoration: none;color: #212157;}
