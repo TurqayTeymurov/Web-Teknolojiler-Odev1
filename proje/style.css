@@ -155,7 +155,7 @@ p.menup4{
 .HakkindaP{
     margin-top: 10px;
     background-color: rgb(156, 156, 156);
-    height: 190px;
+    
     border-radius: 30px;
     text-align: center;
 }
@@ -254,12 +254,12 @@ a.onceki:hover,a.sonraki:hover{background: rgba(0, 0, 0);}
     background-color: #b7b7bb;
 font-size: 18px;
 margin-top: 10px;
-height: 307px;
+
 }
 .fotoQarabag{
     background: linear-gradient(to right,#212157,#acacac);
     margin-top: 10px;
-height: 307px;
+height: 318px;
 width: 100%;
 }
 .fotoQarabag img{
